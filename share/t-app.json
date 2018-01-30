@@ -11,20 +11,17 @@
   "basePath": "/api",
   "produces": [ "application/json" ],
   "consumes": [ "application/json" ],
-  "definitions": {
-    "error": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": [ "error" ],
-      "properties": {
-        "error": { "type": "string" }
-      }
-    }
-  },
   "responses": {
     "error": {
       "description": "Self sufficient",
-      "schema": { "$ref": "#/definitions/error" }
+      "schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [ "error" ],
+        "properties": {
+          "error": { "type": "string" }
+        }
+      }
     }
   },
   "paths": {
