@@ -1,7 +1,5 @@
-t-app
-=====
-
-Testing app for `Mojolicious::Plugin::OpenAPI`.
+mojolicious-plugin-openapi-issue-62
+===================================
 
 # Unit tests
 
